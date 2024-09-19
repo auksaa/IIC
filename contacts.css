@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Protest+Revolution&family=Protest+Riot&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.logo{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+#izeza{
+    position: relative;
+    top: 1px;
+    font-size: 25px;
+    font-family: Dancing Script;
+    color: firebrick;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+#inv{
+    position: relative;
+    top: 1px;
+    font-size: 25px;
+    font-family: Dancing Script;
+    color: firebrick;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+#comp{
+    position: relative;
+    top: 1px;
+    font-size: 25px;
+    font-family: Dancing Script;
+    color: firebrick;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+.mainlinks_div{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.mainlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top: 6px; */
+    list-style: none;
+}
+.mainlinks a{
+    text-decoration: none;
+    margin: 12px;
+    font-family: JetBrains Mono;
+    font-size: 19px;
+    color: firebrick;
+}
+.mainlinks a:hover{
+    color: rgb(180, 55, 55);
+}
+.contact_form{
+    width: 100%;
+    height: 547px;
+    background-color: indianred;
+}
+
+form{
+    width: 400px;
+    height: 440px;
+    background: #9b2e2e;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 4px grey;
+    position: relative;
+    top: 55px;
+    left: 530px;
+    display: block;
+    animation:  slidefromtop 1.5s ease-in-out;
+}
+form input{
+    width: 85%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    left: 22px;
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}
+
+textarea{
+    width: 84.5%;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #f05d5d;
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 24px;
+    outline: #b43737;
+}
+
+button{
+    width: 84.5%;
+    height: 40px;
+    margin-bottom: 5px;
+    background: darkred;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow:  0 0 5px #cacaca;
+    border-radius:0 6px;
+}
+
+
+.footer{
+    height: 75px;
+    width: 100%;
+    background:  firebrick;
+    text-align: center;
+
+}
+.footer-text{
+    color: bisque;
+    font-size: large;
+    position: relative;
+    top: 25px;
+    font-family: JetBrains Mono;
+}
+
+
+@keyframes slidefromtop{
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
